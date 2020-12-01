@@ -5,13 +5,13 @@ services:
     build: docker
     container_name: stardew
     environment:
-      - VNCPASS=nyanyanya
+      - VNCPASS=dancekar3
     ports:
-      - 5900:5900
+      - 28792:5900
       - 24642:24642/udp
     volumes:
       - ./config:/root/.config/i3/config
-      - ./valley_saves:/root/.config/StardewValley/Saves/
+      - ./saves:/root/.config/StardewValley/Saves/
       - ./configs/alwayson.json:/data/Stardew/Stardew Valley/Mods/Always On Server/config.json
       - ./configs/unlimitedplayers.json:/data/Stardew/Stardew Valley/Mods/UnlimitedPlayers/config.json
       - ./configs/autoload.json:/data/Stardew/Stardew Valley/Mods/AutoLoadGame/config.json
