@@ -7,7 +7,7 @@ This project aims to autostart a Stardew Valley Multiplayer Server as easy as po
 ### Docker-Compose
  
 ```
-git clone https://github.com/printfuck/stardew-multiplayer-docker
+git clone https://github.com/huycris/stardew-multiplayer-docker sdv
 
 docker-compose up
 ```
