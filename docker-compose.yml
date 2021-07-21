@@ -5,7 +5,7 @@ services:
     build: docker
     container_name: stardew
     environment:
-      - VNCPASS=dancekar3
+      - VNCPASS=210701
     ports:
       - 28792:5900
       - 24642:24642/udp
